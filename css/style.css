@@ -1,0 +1,61 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    padding: 52px 98px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    column-gap: 50px;
+}
+
+.search_container {
+    width: 222px;
+    height: 56px;
+    border-radius: 10px;
+    border: 3px solid #758BFD;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.fa-magnifying-glass {
+    font-size: 32px;
+    color: #758BFD;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.active,
+.no_active {
+    color: #758BFD;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.active {
+    color: #27187F;
+}
+
+/* section */
+section {
+    background-color: #DDEAF8;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    color: #27187F;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
