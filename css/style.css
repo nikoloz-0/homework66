@@ -59,19 +59,15 @@ h2 {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 68px;
-
+  
 }
 
 .card {
     padding: 33px 30px;
     border-radius: 10px;
     background: #FFF;
-
-}
-
-.card_img {
-    width: cal(340 / 1440 * 100%);
-    height: 188px;
+    width: 400px;
+    
 }
 
 .card_container {
@@ -82,11 +78,9 @@ h2 {
 
 .card_text {
     color: #133B3A;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     margin-top: 33px;
 }
 /* footer */
@@ -142,4 +136,9 @@ h4{
 .footer_card4{
     display: inline-flex;
 
+}
+.footer_cards{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
 }
