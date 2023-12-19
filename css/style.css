@@ -59,7 +59,7 @@ h2 {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 68px;
-  
+
 }
 
 .card {
@@ -67,7 +67,7 @@ h2 {
     border-radius: 10px;
     background: #FFF;
     width: 400px;
-    
+
 }
 
 .card_container {
@@ -83,62 +83,48 @@ h2 {
     font-weight: 400;
     margin-top: 33px;
 }
+
 /* footer */
-footer{
+footer {
     background: #758BFD;
     padding: 75px 98px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
-h4{
+
+h4 {
     color: #FFF;
     font-family: Century Gothic;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 17px;
-    letter-spacing: 0.2px; 
+    letter-spacing: 0.2px;
     /* background-color: #27187F; */
-    
-    
 }
-.footer_container{
+
+.footer_container {
     /* background-color: brown; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 20px;
-    margin-right: 709px;
+
 }
-.socials_icons{
+
+.socials_icons {
     display: flex;
     gap: 15px;
 }
 
 .fa-facebook-f,
-    .fa-linkedin-in,
-    .fa-instagram {
-        font-size: 30px;
-        color: #FFF;
-    }
-.footer_card{
-    display: inline-flex;
-    
+.fa-linkedin-in,
+.fa-instagram {
+    font-size: 30px;
+    color: #FFF;
 }
-.footer_card2{
-    margin-inline: 11px;
-    display: inline-flex;
-}
-.footer_card3{
-    margin-right: 11px;
-    display: inline-flex;
-}
-.footer_card4{
-    display: inline-flex;
 
-}
-.footer_cards{
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center; */
+.footer_cards {
+    display: flex;
+    gap: 11px;
 }
