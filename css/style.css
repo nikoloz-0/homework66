@@ -121,21 +121,15 @@ h4{
     gap: 15px;
 }
 
-.fa-facebook-f{
-    font-size: 30px;
-    color: #FFF;
-}
-.fa-linkedin-in{
-    font-size: 30px;
-    color: #FFF;
-}
-.fa-instagram{
-    font-size: 30px;
-    color: #FFF;
-}
+.fa-facebook-f,
+    .fa-linkedin-in,
+    .fa-instagram {
+        font-size: 30px;
+        color: #FFF;
+    }
 .footer_card{
     display: inline-flex;
-    /* margin-left: 709px; */
+    
 }
 .footer_card2{
     margin-inline: 11px;
@@ -149,4 +143,3 @@ h4{
     display: inline-flex;
 
 }
-/* am display flexs ver gavuge veraferi tvini amidugda :( */
